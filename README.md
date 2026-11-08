@@ -16,6 +16,23 @@ A ferramenta recebe um contrato (PDF, TXT ou DOCX), extrai o texto e:
 
 > Ferramenta de apoio. Ela não substitui a análise de um advogado.
 
+## Telas
+
+### Nova análise
+Envio do contrato (PDF, TXT ou DOCX) para extração e análise.
+
+![Nova análise](screenshot/01_nova_analise.png)
+
+### Resultado da análise
+Classificação de risco, critérios aplicados, itens por severidade, exportação do relatório e abas com resumo, cláusulas, pontos de atenção, informações ausentes, parecer da IA e texto extraído.
+
+![Resultado da análise](screenshot/02_resultado_analise.png)
+
+### Revisão jurídica
+Contadores por status e registro da decisão do advogado revisor.
+
+![Revisão jurídica](screenshot/03_revisao_juridica.png)
+
 ## Estrutura
 
 ```
@@ -38,6 +55,7 @@ contract-review-assistant/
 │   ├── contrato_04_compra_venda_imovel_risco_alto.(txt|pdf|docx)
 │   └── gerar_contratos_demo.py   # Regera PDF/DOCX a partir dos TXT
 ├── data/                     # Banco SQLite (criado automaticamente)
+├── screenshot/               # Capturas de tela usadas no README
 ├── .streamlit/config.toml    # Tema claro e limite de upload (20 MB)
 ├── .env.example
 └── requirements.txt
