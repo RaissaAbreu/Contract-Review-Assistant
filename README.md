@@ -77,7 +77,7 @@ streamlit run app.py
 
 | Seção | O que faz |
 |---|---|
-| **Nova análise** | Upload do arquivo ou escolha de um contrato de demonstração, prévia do texto extraído e botão "Analisar contrato". |
+| **Nova análise** | Upload do arquivo, prévia do texto extraído e botão "Analisar contrato". |
 | **Resultado da análise** | Classificação final, exportação PDF/DOCX e abas: resumo, cláusulas, pontos de atenção, informações ausentes, parecer da IA e texto extraído. |
 | **Revisão jurídica** | Contadores por status, análises aguardando revisão e formulário de decisão (Aprovado / Aprovado com ressalvas / Reprovado). |
 | **Histórico** | Tabela com filtros, consulta detalhada e exclusão. |
@@ -125,7 +125,7 @@ Contratos com mais de 60.000 caracteres são truncados antes do envio, e o parec
 
 ## Roteiro de demonstração
 
-1. Em **Nova análise**, escolha "Usar contrato de demonstração" e selecione `contrato_03_risco_critico.pdf`.
+1. Em **Nova análise**, envie o arquivo `demo/contrato_03_risco_critico.pdf`.
 2. Abra **Pré-visualizar texto extraído** para mostrar a extração feita pelo PyMuPDF.
 3. Clique em **Analisar contrato**. O resultado é **Crítico**, com revisão humana necessária.
 4. Na aba **Cláusulas**, 4 de 6 são identificadas; proteção de dados e prazo não existem no contrato.

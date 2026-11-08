@@ -18,7 +18,6 @@ from ui.componentes import (cabecalho_app, cabecalho_secao, campo, chip, chip_ni
                             chip_severidade, etapa, html, item_ponto, metricas, vazio)
 from ui.estilo import CORES_NIVEL, aplicar_estilo
 
-PASTA_DEMO = Path(__file__).resolve().parent / "demo"
 
 PAGINA_NOVA = "Nova análise"
 PAGINA_RESULTADO = "Resultado da análise"
@@ -107,24 +106,12 @@ def pagina_nova_analise():
                     "Envie um contrato em PDF, TXT ou DOCX para análise automática.")
 
     with st.container(border=True, key="cartao_envio"):
-        etapa("01", "Origem do contrato")
-        origem = st.radio("Origem", ["Enviar arquivo", "Usar contrato de demonstração"],
-                          horizontal=True, label_visibility="collapsed")
-        nome, conteudo = None, None
-        if origem == "Enviar arquivo":
-            arquivo = st.file_uploader("Arquivo do contrato", type=FORMATOS_ACEITOS)
-            if arquivo:
-                nome, conteudo = arquivo.name, arquivo.getvalue()
-        else:
-            demos = sorted(p for p in PASTA_DEMO.iterdir() if p.suffix[1:] in FORMATOS_ACEITOS)
-            if not demos:
-                st.warning("Nenhum contrato de demonstração encontrado na pasta demo/.")
-            else:
-                escolhido = st.selectbox("Contrato fictício", demos, format_func=lambda p: p.name)
-                nome, conteudo = escolhido.name, escolhido.read_bytes()
-
-        if not conteudo:
+        etapa("01", "Arquivo do contrato")
+        arquivo = st.file_uploader("Arquivo do contrato", type=FORMATOS_ACEITOS,
+                                   label_visibility="collapsed")
+        if not arquivo:
             return
+        nome, conteudo = arquivo.name, arquivo.getvalue()
 
         try:
             documento = extrair_cache(nome, conteudo, hashlib.sha256(conteudo).hexdigest())
