@@ -1,0 +1,38 @@
+CONTRATO DE PRESTAÇÃO DE SERVIÇOS DE DESENVOLVIMENTO E SUPORTE DE SOFTWARE
+
+DOCUMENTO FICTÍCIO PARA DEMONSTRAÇÃO
+
+CONTRATANTE: ÔMEGA VAREJO S.A., inscrita no CNPJ sob o nº 45.678.901/0001-23, com sede na Avenida Brasil, nº 3000, Rio de Janeiro/RJ.
+
+CONTRATADA: SIGMA SISTEMAS LTDA., inscrita no CNPJ sob o nº [•], com sede em [•].
+
+CLÁUSULA PRIMEIRA – DO OBJETO
+1.1. O presente contrato tem por objeto o desenvolvimento, a implantação e o suporte técnico do sistema de fidelidade da CONTRATANTE, incluindo a gestão do cadastro de clientes, histórico de compras e dados de contato dos consumidores.
+
+CLÁUSULA SEGUNDA – DO VALOR
+2.1. A CONTRATANTE pagará à CONTRATADA o valor global de R$ 480.000,00 (quatrocentos e oitenta mil reais), em parcelas mensais conforme cronograma a ser definido.
+
+CLÁUSULA TERCEIRA – DA EXCLUSIVIDADE
+3.1. Durante a vigência deste contrato e por 2 (dois) anos após o seu término, a CONTRATADA prestará serviços em regime de exclusividade à CONTRATANTE, não podendo atender empresas do setor varejista.
+
+CLÁUSULA QUARTA – DA RESCISÃO
+4.1. Somente a CONTRATANTE poderá rescindir o presente contrato, a qualquer tempo e a seu exclusivo critério, imediatamente, sem aviso prévio e sem qualquer ônus.
+4.2. Em caso de rescisão, a CONTRATADA renuncia a qualquer indenização ou pagamento pelos serviços em andamento.
+
+CLÁUSULA QUINTA – DA MULTA
+5.1. O descumprimento de qualquer obrigação pela CONTRATADA sujeitará esta ao pagamento de multa de 30% (trinta por cento) sobre o valor total do contrato, sem prejuízo de perdas e danos.
+
+CLÁUSULA SEXTA – DA RESPONSABILIDADE
+6.1. A CONTRATADA assume responsabilidade integral e ilimitada por quaisquer danos, diretos ou indiretos, incluindo lucros cessantes, sofridos pela CONTRATANTE ou por terceiros.
+6.2. A CONTRATANTE não se responsabiliza por qualquer prejuízo da CONTRATADA decorrente da execução deste contrato.
+
+CLÁUSULA SÉTIMA – DO SIGILO
+7.1. A CONTRATADA manterá sigilo perpétuo sobre todas as informações recebidas da CONTRATANTE.
+
+CLÁUSULA OITAVA – DA CESSÃO
+8.1. A CONTRATANTE poderá ceder este contrato a qualquer empresa do seu grupo econômico, sem prévia anuência da CONTRATADA.
+
+CLÁUSULA NONA – DO FORO
+9.1. Fica eleito o foro da Comarca do Rio de Janeiro/RJ.
+
+Rio de Janeiro, [•] de novembro de 2026.

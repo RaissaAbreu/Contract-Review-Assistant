@@ -1,0 +1,72 @@
+CONTRATO DE PRESTAÇÃO DE SERVIÇOS DE CONSULTORIA EM TECNOLOGIA
+
+DOCUMENTO FICTÍCIO PARA DEMONSTRAÇÃO
+
+CONTRATANTE: ALFA GESTÃO EMPRESARIAL LTDA., pessoa jurídica de direito privado, inscrita no CNPJ sob o nº 12.345.678/0001-90, com sede na Avenida Paulista, nº 1000, 10º andar, São Paulo/SP, CEP 01310-100, neste ato representada por sua diretora, Ana Paula Ribeiro.
+
+CONTRATADA: BETA SOLUÇÕES DIGITAIS LTDA., pessoa jurídica de direito privado, inscrita no CNPJ sob o nº 98.765.432/0001-10, com sede na Rua das Flores, nº 250, Curitiba/PR, CEP 80010-000, neste ato representada por seu sócio administrador, Carlos Eduardo Lima.
+
+As partes acima qualificadas celebram o presente Contrato de Prestação de Serviços, que se regerá pelas cláusulas a seguir.
+
+CLÁUSULA PRIMEIRA – DO OBJETO
+1.1. O presente contrato tem por objeto a prestação de serviços de consultoria em tecnologia da informação pela CONTRATADA, compreendendo o diagnóstico da infraestrutura de sistemas da CONTRATANTE e a elaboração de plano de modernização, conforme escopo descrito no Anexo I.
+
+CLÁUSULA SEGUNDA – DO VALOR E DA FORMA DE PAGAMENTO
+2.1. Pelos serviços, a CONTRATANTE pagará à CONTRATADA o valor mensal de R$ 18.000,00 (dezoito mil reais).
+2.2. O pagamento será efetuado até o 10º (décimo) dia útil do mês subsequente à prestação dos serviços, mediante transferência bancária e apresentação da nota fiscal.
+2.3. Em caso de atraso no pagamento, incidirá multa moratória de 2% (dois por cento) e juros de mora de 1% (um por cento) ao mês.
+
+CLÁUSULA TERCEIRA – DO PRAZO DE VIGÊNCIA
+3.1. O presente contrato vigorará pelo prazo de 12 (doze) meses, contados da data de sua assinatura, podendo ser prorrogado mediante termo aditivo assinado pelas partes.
+
+CLÁUSULA QUARTA – DAS OBRIGAÇÕES DAS PARTES
+4.1. A CONTRATADA se obriga a executar os serviços com diligência, empregando profissionais qualificados.
+4.2. A CONTRATANTE se obriga a fornecer as informações e os acessos necessários à execução dos serviços.
+
+CLÁUSULA QUINTA – DA RESCISÃO
+5.1. Qualquer das partes poderá rescindir o presente contrato, sem justa causa, mediante aviso prévio por escrito de 30 (trinta) dias.
+5.2. O contrato poderá ser rescindido por justa causa, mediante notificação, em caso de descumprimento de obrigação contratual não sanado no prazo de 15 (quinze) dias contados do recebimento da notificação.
+5.3. Em caso de rescisão, serão devidos os valores proporcionais aos serviços efetivamente prestados até a data do encerramento.
+
+CLÁUSULA SEXTA – DA MULTA
+6.1. A parte que descumprir qualquer obrigação deste contrato ficará sujeita a multa não compensatória de 10% (dez por cento) sobre o valor da parcela mensal vigente à época da infração.
+
+CLÁUSULA SÉTIMA – DA RESPONSABILIDADE
+7.1. Cada parte responderá pelos danos diretos que comprovadamente causar à outra parte em razão do descumprimento deste contrato.
+7.2. A responsabilidade total de cada parte fica limitada ao valor pago pela CONTRATANTE nos 12 (doze) meses anteriores ao evento, exceto em caso de dolo ou culpa grave.
+7.3. Nenhuma das partes responderá por lucros cessantes ou danos indiretos.
+
+CLÁUSULA OITAVA – DA CONFIDENCIALIDADE
+8.1. As partes se obrigam a manter sob sigilo todas as informações confidenciais a que tiverem acesso em razão deste contrato, utilizando-as exclusivamente para a sua execução.
+8.2. A obrigação de confidencialidade permanecerá válida durante a vigência do contrato e por 5 (cinco) anos após o seu término.
+8.3. Não se aplica o dever de sigilo às informações que sejam de domínio público, que já eram de conhecimento da parte receptora ou cuja divulgação seja exigida por ordem judicial ou autoridade competente.
+
+CLÁUSULA NONA – DA PROTEÇÃO DE DADOS PESSOAIS
+9.1. As partes se comprometem a cumprir a Lei Geral de Proteção de Dados Pessoais (Lei nº 13.709/2018 – LGPD) no tratamento de dados pessoais realizado em razão deste contrato.
+9.2. Para os fins deste contrato, a CONTRATANTE atua como controladora e a CONTRATADA como operadora, devendo esta tratar os dados apenas conforme as instruções documentadas da CONTRATANTE.
+9.3. A CONTRATADA adotará medidas técnicas e administrativas de segurança aptas a proteger os dados pessoais.
+9.4. A CONTRATADA comunicará à CONTRATANTE, em até 48 (quarenta e oito) horas, a ocorrência de qualquer incidente de segurança que envolva dados pessoais.
+9.5. Ao término do contrato, a CONTRATADA eliminará os dados pessoais tratados, salvo obrigação legal de conservação.
+
+CLÁUSULA DÉCIMA – DAS DISPOSIÇÕES GERAIS
+10.1. Este contrato não poderá ser cedido sem a prévia anuência por escrito da outra parte.
+10.2. Qualquer alteração deste contrato deverá ser formalizada por termo aditivo.
+
+CLÁUSULA DÉCIMA PRIMEIRA – DO FORO
+11.1. Fica eleito o foro da Comarca de São Paulo/SP para dirimir quaisquer controvérsias oriundas deste contrato.
+
+E, por estarem assim justas e contratadas, as partes assinam o presente instrumento em 2 (duas) vias de igual teor, na presença das testemunhas abaixo.
+
+São Paulo, 3 de novembro de 2026.
+
+______________________________________
+ALFA GESTÃO EMPRESARIAL LTDA.
+CONTRATANTE
+
+______________________________________
+BETA SOLUÇÕES DIGITAIS LTDA.
+CONTRATADA
+
+Testemunhas:
+1. ______________________ Nome: Juliana Martins – CPF: 123.456.789-00
+2. ______________________ Nome: Roberto Alves – CPF: 987.654.321-00
