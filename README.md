@@ -35,6 +35,7 @@ contract-review-assistant/
 │   ├── contrato_01_risco_baixo.(txt|pdf|docx)
 │   ├── contrato_02_risco_medio.(txt|pdf|docx)
 │   ├── contrato_03_risco_critico.(txt|pdf|docx)
+│   ├── contrato_04_compra_venda_imovel_risco_alto.(txt|pdf|docx)
 │   └── gerar_contratos_demo.py   # Regera PDF/DOCX a partir dos TXT
 ├── data/                     # Banco SQLite (criado automaticamente)
 ├── .streamlit/config.toml    # Tema claro e limite de upload (20 MB)
@@ -142,5 +143,6 @@ Resultados esperados (iguais para TXT, PDF e DOCX):
 | 01 — risco baixo | Baixo | 0 |
 | 02 — risco médio | Médio | 15 |
 | 03 — risco crítico | Crítico | 91 |
+| 04 — compra e venda de imóvel (R$ 9,8 mi) | Alto | 31 |
 
 Todos os contratos, empresas, CNPJs e pessoas dos arquivos de demonstração são **fictícios**.

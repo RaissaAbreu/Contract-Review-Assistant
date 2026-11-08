@@ -422,6 +422,19 @@ def _nome_parte(texto, norm, papel):
     return None
 
 
+# Papéis equivalentes em outros tipos de contrato (compra e venda, locação etc.)
+PAPEIS_CONTRATANTE = ["contratante", "compradora?", "promitente compradora?", "locataria?", "cessionaria?"]
+PAPEIS_CONTRATADA = ["contratada", "vendedora?", "promitente vendedora?", "locadora?", "cedente"]
+
+
+def _primeira_parte(texto, norm, papeis):
+    for papel in papeis:
+        nome = _nome_parte(texto, norm, papel)
+        if nome:
+            return nome
+    return None
+
+
 def montar_resumo(texto, norm, segmentos, encontradas):
     def segmento_titulo(padrao):
         for seg in segmentos:
@@ -455,16 +468,24 @@ def montar_resumo(texto, norm, segmentos, encontradas):
     datas = list(re.finditer(rf"\d{{1,2}}\s+de\s+(?:{MESES})\s+de\s+\d{{4}}", norm))
     data = _uma_linha(texto[datas[-1].start():datas[-1].end()]) if datas else None
 
+    # Título: primeiro bloco de linhas em caixa alta que cite o tipo de instrumento
     titulo_contrato = None
-    for linha in texto.split("\n")[:6]:
-        if "contrato" in normalizar(linha) and len(linha) < 140:
-            titulo_contrato = _uma_linha(linha)
+    linhas = [l for l in texto.split("\n")[:8]]
+    for i, linha in enumerate(linhas):
+        if re.search(r"contrato|instrumento|compromisso|termo|acordo", normalizar(linha)):
+            partes = [linha]
+            for seguinte in linhas[i + 1:i + 3]:
+                if seguinte.strip() and _eh_maiuscula(seguinte) and not re.search(r"ficticio", normalizar(seguinte)):
+                    partes.append(seguinte)
+                else:
+                    break
+            titulo_contrato = _uma_linha(" ".join(partes))[:200]
             break
 
     return {
         "titulo": titulo_contrato,
-        "contratante": _nome_parte(texto, norm, "contratante"),
-        "contratada": _nome_parte(texto, norm, "contratada"),
+        "contratante": _primeira_parte(texto, norm, PAPEIS_CONTRATANTE),
+        "contratada": _primeira_parte(texto, norm, PAPEIS_CONTRATADA),
         "objeto": objeto,
         "valor": valor,
         "pagamento": pagamento,

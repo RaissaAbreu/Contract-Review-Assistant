@@ -77,6 +77,10 @@ def _extrair_txt(conteudo: bytes) -> str:
 def limpar_texto(texto: str) -> str:
     """Remove ruídos comuns da extração sem alterar o conteúdo."""
     texto = texto.replace("\r\n", "\n").replace("\r", "\n").replace("\xa0", " ")
+    # Ligaduras tipográficas comuns em PDF ("ﬁ" → "fi")
+    for ligadura, letras in {"\ufb00": "ff", "\ufb01": "fi", "\ufb02": "fl",
+                             "\ufb03": "ffi", "\ufb04": "ffl"}.items():
+        texto = texto.replace(ligadura, letras)
     # Junta palavras hifenizadas na quebra de linha do PDF ("presta-\nção")
     texto = re.sub(r"(\w)-\n(\w)", r"\1\2", texto)
     texto = re.sub(r"[ \t]+", " ", texto)
